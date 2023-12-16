@@ -1,6 +1,6 @@
-# This entrypoint file to be used in development. Start by reading README.md
-import time_series_visualizer
+"""This entrypoint file to be used in development. Start by reading README.md"""
 from unittest import main
+import time_series_visualizer
 
 # Test your function by calling it here
 time_series_visualizer.draw_line_plot()
