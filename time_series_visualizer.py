@@ -18,10 +18,10 @@ def draw_line_plot():
         Figure: figure for tests
     """
     # Draw line plot
-    fig, ax = plt.subplots(figsize=(10,5))
+    fig, axes = plt.subplots(figsize=(10,5))
 
-    ax.plot(df.index, df['value'])
-    ax.set(
+    axes.plot(df.index, df['value'])
+    axes.set(
         title='Daily freeCodeCamp Forum Page Views 5/2016-12/2019',
         ylabel="Page Views",
         xlabel="Date"
